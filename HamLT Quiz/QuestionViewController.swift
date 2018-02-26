@@ -48,7 +48,6 @@ class QuestionViewController: NSViewController {
     }
     override init(nibName nibNameOrNil: NSNib.Name?, bundle nibBundleOrNil: Bundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
-        
     }
     
     init(nibName nibNameOrNil: NSNib.Name?, bundle nibBundleOrNil: Bundle?, category: Category) {

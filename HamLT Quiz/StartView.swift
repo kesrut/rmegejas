@@ -18,7 +18,6 @@ class StartView: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do view setup here.
-        
     }
     
     @IBAction func bLevelTestPress(_ sender: Any) {
@@ -87,6 +86,4 @@ class StartView: NSViewController {
             }
         }
     }
-    
-    
 }

@@ -16,7 +16,6 @@ class MainViewController: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do view setup here.
-       
     }
     
     override func awakeFromNib() {
@@ -37,8 +36,6 @@ class MainViewController: NSViewController {
             startView.view.needsDisplay = true
             startView.view.needsLayout = true
             startView.mainViewController = self
-            
-            
         }
     }
 

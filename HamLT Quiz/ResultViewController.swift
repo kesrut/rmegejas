@@ -59,5 +59,4 @@ class ResultViewController: NSViewController {
             v.removeFromSuperview()
         }
     }
-    
 }

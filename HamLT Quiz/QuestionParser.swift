@@ -129,9 +129,7 @@ class QuizParser: NSObject, XMLParserDelegate   {
                 else {
                     q.imageName = nil
                 }
-                
             }
         }
     }
-    
 }
