@@ -17,16 +17,18 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="500"/>
             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
             <subviews>
-                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="3nT-bU-TEk">
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3nT-bU-TEk">
                     <rect key="frame" x="220" y="238" width="161" height="24"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Rezultatas: 30/30" id="5bf-xQ-zfl">
                         <font key="font" metaFont="system" size="20"/>
                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Nc8-er-chj">
-                    <rect key="frame" x="264" y="13" width="73" height="32"/>
+                <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nc8-er-chj">
+                    <rect key="frame" x="264" y="-1" width="73" height="32"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <buttonCell key="cell" type="push" title="Grįžti" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Mth-8U-ioo">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
@@ -36,12 +38,6 @@
                     </connections>
                 </button>
             </subviews>
-            <constraints>
-                <constraint firstItem="3nT-bU-TEk" firstAttribute="centerY" secondItem="Hz6-mo-xeY" secondAttribute="centerY" id="01M-ck-2jy"/>
-                <constraint firstAttribute="bottom" secondItem="Nc8-er-chj" secondAttribute="bottom" constant="20" id="aFX-Jy-1Wd"/>
-                <constraint firstItem="3nT-bU-TEk" firstAttribute="centerX" secondItem="Hz6-mo-xeY" secondAttribute="centerX" id="hYg-A6-gm8"/>
-                <constraint firstAttribute="trailing" secondItem="Nc8-er-chj" secondAttribute="trailing" constant="269" id="xFH-TT-Xpp"/>
-            </constraints>
         </customView>
         <customObject id="rOu-Bi-64y" customClass="ResultViewController" customModule="Radijo_me_ge_jas" customModuleProvider="target">
             <connections>

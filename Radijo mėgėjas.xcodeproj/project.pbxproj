@@ -29,6 +29,8 @@
 		8C57C6CF2042F11600F2F7F4 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C57C6CD2042F11600F2F7F4 /* ResultViewController.swift */; };
 		8C57C6D02042F11600F2F7F4 /* ResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C57C6CE2042F11600F2F7F4 /* ResultViewController.xib */; };
 		8C57C6DC2043C1E100F2F7F4 /* StartView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C57C6DA2043C1E100F2F7F4 /* StartView.xib */; };
+		8C57C7192044072600F2F7F4 /* santrupos.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8C57C7182044072600F2F7F4 /* santrupos.pdf */; };
+		8C57C71B2044072C00F2F7F4 /* atstojamosios.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8C57C71A2044072C00F2F7F4 /* atstojamosios.pdf */; };
 		8C633F65203FD69E006557DC /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C633F61203FD66C006557DC /* Quartz.framework */; };
 		8C633F66203FD6A6006557DC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C633F63203FD67F006557DC /* QuartzCore.framework */; };
 		8C633F68204030AA006557DC /* istatymas.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8C633F67204030AA006557DC /* istatymas.pdf */; };
@@ -71,10 +73,9 @@
 		8C57C6B82042DD2000F2F7F4 /* b3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = b3.gif; sourceTree = "<group>"; };
 		8C57C6CD2042F11600F2F7F4 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		8C57C6CE2042F11600F2F7F4 /* ResultViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultViewController.xib; sourceTree = "<group>"; };
-		8C57C6D12043BF3100F2F7F4 /* lt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = lt; path = lt.lproj/MainMenu.strings; sourceTree = "<group>"; };
 		8C57C6DD2043C20800F2F7F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/StartView.xib; sourceTree = "<group>"; };
-		8C57C6E12043C29200F2F7F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/StartView.strings; sourceTree = "<group>"; };
-		8C57C6E22043C5B600F2F7F4 /* lt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = lt; path = lt.lproj/StartView.strings; sourceTree = "<group>"; };
+		8C57C7182044072600F2F7F4 /* santrupos.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = santrupos.pdf; sourceTree = "<group>"; };
+		8C57C71A2044072C00F2F7F4 /* atstojamosios.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = atstojamosios.pdf; sourceTree = "<group>"; };
 		8C633F61203FD66C006557DC /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
 		8C633F63203FD67F006557DC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		8C633F67204030AA006557DC /* istatymas.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = istatymas.pdf; path = ../../../Downloads/istatymas.pdf; sourceTree = "<group>"; };
@@ -182,6 +183,8 @@
 				8C57C6CD2042F11600F2F7F4 /* ResultViewController.swift */,
 				8C57C6CE2042F11600F2F7F4 /* ResultViewController.xib */,
 				8C633F67204030AA006557DC /* istatymas.pdf */,
+				8C57C7182044072600F2F7F4 /* santrupos.pdf */,
+				8C57C71A2044072C00F2F7F4 /* atstojamosios.pdf */,
 				8C633F6D20405D4D006557DC /* icon_128x128.png */,
 				8C633F6F20405D53006557DC /* icon_128x128@2x.png */,
 				8C672769203DF01C0055675F /* Info.plist */,
@@ -233,9 +236,7 @@
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
-				lt,
 			);
 			mainGroup = 8C672756203DF01C0055675F;
 			productRefGroup = 8C672760203DF01C0055675F /* Products */;
@@ -267,6 +268,7 @@
 				8C57C6C42042DD2000F2F7F4 /* b4.gif in Resources */,
 				8C672768203DF01C0055675F /* MainMenu.xib in Resources */,
 				8C57C6C82042DD2000F2F7F4 /* a8.gif in Resources */,
+				8C57C71B2044072C00F2F7F4 /* atstojamosios.pdf in Resources */,
 				8C633F68204030AA006557DC /* istatymas.pdf in Resources */,
 				8C57C6CA2042DD2000F2F7F4 /* b3.gif in Resources */,
 				8C57C6C22042DD2000F2F7F4 /* a7.gif in Resources */,
@@ -280,6 +282,7 @@
 				8C633F74204080EB006557DC /* QuestionViewController.xib in Resources */,
 				8C57C6BC2042DD2000F2F7F4 /* a4.gif in Resources */,
 				8C57C6C92042DD2000F2F7F4 /* b6.gif in Resources */,
+				8C57C7192044072600F2F7F4 /* santrupos.pdf in Resources */,
 				8C57C6DC2043C1E100F2F7F4 /* StartView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,8 +313,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				8C57C6DD2043C20800F2F7F4 /* Base */,
-				8C57C6E12043C29200F2F7F4 /* en */,
-				8C57C6E22043C5B600F2F7F4 /* lt */,
 			);
 			name = StartView.xib;
 			sourceTree = "<group>";
@@ -320,7 +321,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				8C672767203DF01C0055675F /* Base */,
-				8C57C6D12043BF3100F2F7F4 /* lt */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";

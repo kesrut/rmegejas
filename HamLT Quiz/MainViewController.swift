@@ -35,7 +35,7 @@ class MainViewController: NSViewController {
             self.removeAllSubviews()
             self.view.addSubview(startView.view)
             startView.view.needsDisplay = true
-            startView.view.needsLayout = true 
+            startView.view.needsLayout = true
             startView.mainViewController = self
             
             

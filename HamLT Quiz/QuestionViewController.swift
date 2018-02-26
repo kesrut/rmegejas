@@ -35,16 +35,25 @@ class QuestionViewController: NSViewController {
     var answerNumber: Int? = 0
     var answerClicked: Bool = false
     let bCategeryMaxQuestion: Int = 295
+    let aCategeryMaxQuestion: Int = 638
     var numberQuestions: Int = 0
     let quizQuestionsCount: Int = 30
     var correctQuestionsCount: Int = 0
+    private var testCategory: Category?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do view setup here.
+        
     }
     override init(nibName nibNameOrNil: NSNib.Name?, bundle nibBundleOrNil: Bundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
+        
+    }
+    
+    init(nibName nibNameOrNil: NSNib.Name?, bundle nibBundleOrNil: Bundle?, category: Category) {
+        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
+        testCategory = category
     }
     
     required init?(coder: NSCoder) {
@@ -55,7 +64,24 @@ class QuestionViewController: NSViewController {
         if let quizParser = quizParser {
             switch category {
             case .A_CATEGORY:
-                print("a category")
+                questionNumber = (bCategeryMaxQuestion + 1) + Int(arc4random_uniform(UInt32((quizParser.questions.count - bCategeryMaxQuestion - 1))))
+                answerClicked = false
+                if let questionNumber = questionNumber {
+                    if questionNumber >= 0 && questionNumber <= aCategeryMaxQuestion {
+                        if (numberQuestions < quizQuestionsCount) {
+                            self.updateView(q: quizParser.questions[questionNumber])
+                            numberQuestions = numberQuestions + 1
+                        } else {
+                            resultViewController = ResultViewController.init(nibName: NSNib.Name(rawValue: "ResultViewController"), bundle: Bundle.main, numberCorrrect: correctQuestionsCount, numberQuestions: numberQuestions)
+                            if let resultViewController = resultViewController {
+                                NotificationCenter.default.removeObserver(self, name: Notification.Name(rawValue:"answerClick"), object: nil)
+                                resultViewController.mainViewController = mainViewController
+                                self.removeAllSubviews()
+                                self.view.addSubview(resultViewController.view)
+                            }
+                        }
+                    }
+                }
             case .B_CATEGORY:
                 questionNumber = Int(arc4random_uniform(UInt32(bCategeryMaxQuestion + 1)))
                 answerClicked = false
@@ -71,7 +97,6 @@ class QuestionViewController: NSViewController {
                                 resultViewController.mainViewController = mainViewController
                                 self.removeAllSubviews()
                                 self.view.addSubview(resultViewController.view)
-                                
                             }
                         }
                     }
@@ -83,7 +108,9 @@ class QuestionViewController: NSViewController {
     override func awakeFromNib() {
         if (question != nil) {
             quizParser = QuizParser()
-            loadQuestion(category: .B_CATEGORY)
+            if let testCategory = testCategory {
+                loadQuestion(category: testCategory)
+            }
             NotificationCenter.default.addObserver(self, selector: #selector(answerClick), name: Notification.Name(rawValue:"answerClick"), object: nil)
         }
     }
@@ -167,16 +194,12 @@ class QuestionViewController: NSViewController {
         answer3.stringValue = q.answers[2]
     }
     
-    override func viewDidAppear() {
-        super.viewDidAppear()
-    }
     
     @IBAction func endPress(_ sender: Any) {
         startView = StartView.init(nibName: NSNib.Name(rawValue:"StartView"), bundle: Bundle.main)
         if let startView = startView {
             self.removeAllSubviews()
             self.view.addSubview(startView.view)
-            
             if let mainViewController = mainViewController {
                 startView.mainViewController = mainViewController
                 NotificationCenter.default.removeObserver(self, name: Notification.Name(rawValue:"answerClick"), object: nil)
