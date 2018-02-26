@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2D720D05204477B200FC7CAE /* istatymas.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2D720D04204477B200FC7CAE /* istatymas.pdf */; };
-		2D720D07204477E900FC7CAE /* icon_128x128@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D720D06204477E900FC7CAE /* icon_128x128@2x.png */; };
-		2D720D09204477F300FC7CAE /* icon_128x128@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D720D08204477F300FC7CAE /* icon_128x128@2x.png */; };
+		2D720D0B204478AA00FC7CAE /* icon_128x128.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D720D0A204478AA00FC7CAE /* icon_128x128.png */; };
+		2D720D0D204478D100FC7CAE /* icon_128x128@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D720D0C204478D000FC7CAE /* icon_128x128@2x.png */; };
 		8C57C6A62042B87300F2F7F4 /* ClickableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C57C6A52042B87300F2F7F4 /* ClickableTextField.swift */; };
 		8C57C6B92042DD2000F2F7F4 /* a1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8C57C6A72042DD1D00F2F7F4 /* a1.gif */; };
 		8C57C6BA2042DD2000F2F7F4 /* a10.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8C57C6A82042DD1D00F2F7F4 /* a10.gif */; };
@@ -53,8 +53,8 @@
 
 /* Begin PBXFileReference section */
 		2D720D04204477B200FC7CAE /* istatymas.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = istatymas.pdf; sourceTree = "<group>"; };
-		2D720D06204477E900FC7CAE /* icon_128x128@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_128x128@2x.png"; path = "Assets.xcassets/AppIcon.appiconset/icon_128x128@2x.png"; sourceTree = "<group>"; };
-		2D720D08204477F300FC7CAE /* icon_128x128@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_128x128@2x.png"; path = "Assets.xcassets/AppIcon.appiconset/icon_128x128@2x.png"; sourceTree = "<group>"; };
+		2D720D0A204478AA00FC7CAE /* icon_128x128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_128x128.png; path = Assets.xcassets/AppIcon.appiconset/icon_128x128.png; sourceTree = "<group>"; };
+		2D720D0C204478D000FC7CAE /* icon_128x128@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_128x128@2x.png"; path = "Assets.xcassets/AppIcon.appiconset/icon_128x128@2x.png"; sourceTree = "<group>"; };
 		8C57C6A52042B87300F2F7F4 /* ClickableTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickableTextField.swift; sourceTree = "<group>"; };
 		8C57C6A72042DD1D00F2F7F4 /* a1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = a1.gif; sourceTree = "<group>"; };
 		8C57C6A82042DD1D00F2F7F4 /* a10.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = a10.gif; sourceTree = "<group>"; };
@@ -183,10 +183,10 @@
 				8C57C6CD2042F11600F2F7F4 /* ResultViewController.swift */,
 				8C57C6CE2042F11600F2F7F4 /* ResultViewController.xib */,
 				2D720D04204477B200FC7CAE /* istatymas.pdf */,
+				2D720D0C204478D000FC7CAE /* icon_128x128@2x.png */,
+				2D720D0A204478AA00FC7CAE /* icon_128x128.png */,
 				8C57C7182044072600F2F7F4 /* santrupos.pdf */,
-				2D720D08204477F300FC7CAE /* icon_128x128@2x.png */,
 				8C57C71A2044072C00F2F7F4 /* atstojamosios.pdf */,
-				2D720D06204477E900FC7CAE /* icon_128x128@2x.png */,
 				8C672769203DF01C0055675F /* Info.plist */,
 				8C633F772040835A006557DC /* quiz.xml */,
 				8C67276A203DF01C0055675F /* HamLT_Quiz.entitlements */,
@@ -253,25 +253,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D720D09204477F300FC7CAE /* icon_128x128@2x.png in Resources */,
 				8C57C6C72042DD2000F2F7F4 /* a6.gif in Resources */,
 				8C57C6BF2042DD2000F2F7F4 /* b1.gif in Resources */,
 				8C57C6BB2042DD2000F2F7F4 /* b2.gif in Resources */,
 				8C57C6BE2042DD2000F2F7F4 /* b5.gif in Resources */,
 				8C633F6C204058BE006557DC /* DocumentController.xib in Resources */,
 				8C57C6C62042DD2000F2F7F4 /* a9.gif in Resources */,
-				2D720D07204477E900FC7CAE /* icon_128x128@2x.png in Resources */,
 				8C672765203DF01C0055675F /* Assets.xcassets in Resources */,
 				8C672773203DF0560055675F /* MainViewController.xib in Resources */,
 				8C57C6D02042F11600F2F7F4 /* ResultViewController.xib in Resources */,
 				8C57C6C02042DD2000F2F7F4 /* b7.gif in Resources */,
 				8C57C6C52042DD2000F2F7F4 /* a2.gif in Resources */,
+				2D720D0D204478D100FC7CAE /* icon_128x128@2x.png in Resources */,
 				8C57C6C42042DD2000F2F7F4 /* b4.gif in Resources */,
 				8C672768203DF01C0055675F /* MainMenu.xib in Resources */,
 				8C57C6C82042DD2000F2F7F4 /* a8.gif in Resources */,
 				8C57C71B2044072C00F2F7F4 /* atstojamosios.pdf in Resources */,
 				8C57C6CA2042DD2000F2F7F4 /* b3.gif in Resources */,
 				8C57C6C22042DD2000F2F7F4 /* a7.gif in Resources */,
+				2D720D0B204478AA00FC7CAE /* icon_128x128.png in Resources */,
 				8C633F782040835A006557DC /* quiz.xml in Resources */,
 				2D720D05204477B200FC7CAE /* istatymas.pdf in Resources */,
 				8C57C6C12042DD2000F2F7F4 /* b8.gif in Resources */,
