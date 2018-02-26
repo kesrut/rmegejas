@@ -6,6 +6,10 @@
 //  Copyright © 2018 Kęstutis Rutkauskas. All rights reserved.
 //
 
+/*
+Code from: https://stackoverflow.com/questions/11775128/set-text-vertical-center-in-nstextfield
+*/
+
 import Cocoa
 
 class ClickableFieldCell: NSTextFieldCell {
