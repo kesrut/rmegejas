@@ -450,7 +450,7 @@
 				DEVELOPMENT_TEAM = 8Y726G48PT;
 				INFOPLIST_FILE = "HamLT Quiz/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "lt.embedded.HamLT-Quiz";
+				PRODUCT_BUNDLE_IDENTIFIER = lt.embedded.os.rmegejas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -466,7 +466,7 @@
 				DEVELOPMENT_TEAM = 8Y726G48PT;
 				INFOPLIST_FILE = "HamLT Quiz/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "lt.embedded.HamLT-Quiz";
+				PRODUCT_BUNDLE_IDENTIFIER = lt.embedded.os.rmegejas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
