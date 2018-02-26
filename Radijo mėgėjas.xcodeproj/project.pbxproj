@@ -49,6 +49,7 @@
 		8C672772203DF0560055675F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C672770203DF0560055675F /* MainViewController.swift */; };
 		8C672773203DF0560055675F /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C672771203DF0560055675F /* MainViewController.xib */; };
 		8C672778203DF0970055675F /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C672776203DF0970055675F /* StartView.swift */; };
+		8CB79418204499760090AE5A /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB79417204499760090AE5A /* WindowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -97,6 +98,7 @@
 		8C672770203DF0560055675F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		8C672771203DF0560055675F /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		8C672776203DF0970055675F /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		8CB79417204499760090AE5A /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +171,7 @@
 				8C672762203DF01C0055675F /* AppDelegate.swift */,
 				8C672764203DF01C0055675F /* Assets.xcassets */,
 				8C672766203DF01C0055675F /* MainMenu.xib */,
+				8CB79417204499760090AE5A /* WindowController.swift */,
 				8C672770203DF0560055675F /* MainViewController.swift */,
 				8C672771203DF0560055675F /* MainViewController.xib */,
 				8C633F69204058BE006557DC /* DocumentController.swift */,
@@ -295,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C672778203DF0970055675F /* StartView.swift in Sources */,
+				8CB79418204499760090AE5A /* WindowController.swift in Sources */,
 				8C633F7A20409D4F006557DC /* ClickableFieldCell.swift in Sources */,
 				8C633F73204080EB006557DC /* QuestionViewController.swift in Sources */,
 				8C672763203DF01C0055675F /* AppDelegate.swift in Sources */,

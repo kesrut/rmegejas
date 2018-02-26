@@ -23,6 +23,11 @@
                 <outlet property="view" destination="EiT-Mj-1SZ" id="zmy-MQ-rM8"/>
             </connections>
         </customObject>
+        <customObject id="qUl-sZ-Fz0" customClass="WindowController" customModule="Radijo_me_ge_jas" customModuleProvider="target">
+            <connections>
+                <outlet property="window" destination="QvC-M9-y7g" id="JXz-Ua-LFY"/>
+            </connections>
+        </customObject>
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
         <menu title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
             <items>
