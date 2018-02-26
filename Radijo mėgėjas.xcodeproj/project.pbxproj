@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D720D05204477B200FC7CAE /* istatymas.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2D720D04204477B200FC7CAE /* istatymas.pdf */; };
+		2D720D07204477E900FC7CAE /* icon_128x128@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D720D06204477E900FC7CAE /* icon_128x128@2x.png */; };
+		2D720D09204477F300FC7CAE /* icon_128x128@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D720D08204477F300FC7CAE /* icon_128x128@2x.png */; };
 		8C57C6A62042B87300F2F7F4 /* ClickableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C57C6A52042B87300F2F7F4 /* ClickableTextField.swift */; };
 		8C57C6B92042DD2000F2F7F4 /* a1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8C57C6A72042DD1D00F2F7F4 /* a1.gif */; };
 		8C57C6BA2042DD2000F2F7F4 /* a10.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8C57C6A82042DD1D00F2F7F4 /* a10.gif */; };
@@ -33,11 +36,8 @@
 		8C57C71B2044072C00F2F7F4 /* atstojamosios.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8C57C71A2044072C00F2F7F4 /* atstojamosios.pdf */; };
 		8C633F65203FD69E006557DC /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C633F61203FD66C006557DC /* Quartz.framework */; };
 		8C633F66203FD6A6006557DC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C633F63203FD67F006557DC /* QuartzCore.framework */; };
-		8C633F68204030AA006557DC /* istatymas.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8C633F67204030AA006557DC /* istatymas.pdf */; };
 		8C633F6B204058BE006557DC /* DocumentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C633F69204058BE006557DC /* DocumentController.swift */; };
 		8C633F6C204058BE006557DC /* DocumentController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C633F6A204058BE006557DC /* DocumentController.xib */; };
-		8C633F6E20405D4D006557DC /* icon_128x128.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C633F6D20405D4D006557DC /* icon_128x128.png */; };
-		8C633F7020405D53006557DC /* icon_128x128@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C633F6F20405D53006557DC /* icon_128x128@2x.png */; };
 		8C633F73204080EB006557DC /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C633F71204080EB006557DC /* QuestionViewController.swift */; };
 		8C633F74204080EB006557DC /* QuestionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C633F72204080EB006557DC /* QuestionViewController.xib */; };
 		8C633F76204082CC006557DC /* QuestionParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C633F75204082CC006557DC /* QuestionParser.swift */; };
@@ -52,6 +52,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D720D04204477B200FC7CAE /* istatymas.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = istatymas.pdf; sourceTree = "<group>"; };
+		2D720D06204477E900FC7CAE /* icon_128x128@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_128x128@2x.png"; path = "Assets.xcassets/AppIcon.appiconset/icon_128x128@2x.png"; sourceTree = "<group>"; };
+		2D720D08204477F300FC7CAE /* icon_128x128@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_128x128@2x.png"; path = "Assets.xcassets/AppIcon.appiconset/icon_128x128@2x.png"; sourceTree = "<group>"; };
 		8C57C6A52042B87300F2F7F4 /* ClickableTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickableTextField.swift; sourceTree = "<group>"; };
 		8C57C6A72042DD1D00F2F7F4 /* a1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = a1.gif; sourceTree = "<group>"; };
 		8C57C6A82042DD1D00F2F7F4 /* a10.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = a10.gif; sourceTree = "<group>"; };
@@ -78,11 +81,8 @@
 		8C57C71A2044072C00F2F7F4 /* atstojamosios.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = atstojamosios.pdf; sourceTree = "<group>"; };
 		8C633F61203FD66C006557DC /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
 		8C633F63203FD67F006557DC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		8C633F67204030AA006557DC /* istatymas.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = istatymas.pdf; path = ../../../Downloads/istatymas.pdf; sourceTree = "<group>"; };
 		8C633F69204058BE006557DC /* DocumentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentController.swift; sourceTree = "<group>"; };
 		8C633F6A204058BE006557DC /* DocumentController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DocumentController.xib; sourceTree = "<group>"; };
-		8C633F6D20405D4D006557DC /* icon_128x128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_128x128.png; path = "../../../Desktop/untitled folder/radio2/hamradio/icon.iconset/icon_128x128.png"; sourceTree = "<group>"; };
-		8C633F6F20405D53006557DC /* icon_128x128@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_128x128@2x.png"; path = "../../../Desktop/untitled folder/radio2/hamradio/icon.iconset/icon_128x128@2x.png"; sourceTree = "<group>"; };
 		8C633F71204080EB006557DC /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		8C633F72204080EB006557DC /* QuestionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestionViewController.xib; sourceTree = "<group>"; };
 		8C633F75204082CC006557DC /* QuestionParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionParser.swift; sourceTree = "<group>"; };
@@ -182,11 +182,11 @@
 				8C57C6A52042B87300F2F7F4 /* ClickableTextField.swift */,
 				8C57C6CD2042F11600F2F7F4 /* ResultViewController.swift */,
 				8C57C6CE2042F11600F2F7F4 /* ResultViewController.xib */,
-				8C633F67204030AA006557DC /* istatymas.pdf */,
+				2D720D04204477B200FC7CAE /* istatymas.pdf */,
 				8C57C7182044072600F2F7F4 /* santrupos.pdf */,
+				2D720D08204477F300FC7CAE /* icon_128x128@2x.png */,
 				8C57C71A2044072C00F2F7F4 /* atstojamosios.pdf */,
-				8C633F6D20405D4D006557DC /* icon_128x128.png */,
-				8C633F6F20405D53006557DC /* icon_128x128@2x.png */,
+				2D720D06204477E900FC7CAE /* icon_128x128@2x.png */,
 				8C672769203DF01C0055675F /* Info.plist */,
 				8C633F772040835A006557DC /* quiz.xml */,
 				8C67276A203DF01C0055675F /* HamLT_Quiz.entitlements */,
@@ -253,14 +253,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D720D09204477F300FC7CAE /* icon_128x128@2x.png in Resources */,
 				8C57C6C72042DD2000F2F7F4 /* a6.gif in Resources */,
 				8C57C6BF2042DD2000F2F7F4 /* b1.gif in Resources */,
 				8C57C6BB2042DD2000F2F7F4 /* b2.gif in Resources */,
 				8C57C6BE2042DD2000F2F7F4 /* b5.gif in Resources */,
 				8C633F6C204058BE006557DC /* DocumentController.xib in Resources */,
 				8C57C6C62042DD2000F2F7F4 /* a9.gif in Resources */,
+				2D720D07204477E900FC7CAE /* icon_128x128@2x.png in Resources */,
 				8C672765203DF01C0055675F /* Assets.xcassets in Resources */,
-				8C633F6E20405D4D006557DC /* icon_128x128.png in Resources */,
 				8C672773203DF0560055675F /* MainViewController.xib in Resources */,
 				8C57C6D02042F11600F2F7F4 /* ResultViewController.xib in Resources */,
 				8C57C6C02042DD2000F2F7F4 /* b7.gif in Resources */,
@@ -269,13 +270,12 @@
 				8C672768203DF01C0055675F /* MainMenu.xib in Resources */,
 				8C57C6C82042DD2000F2F7F4 /* a8.gif in Resources */,
 				8C57C71B2044072C00F2F7F4 /* atstojamosios.pdf in Resources */,
-				8C633F68204030AA006557DC /* istatymas.pdf in Resources */,
 				8C57C6CA2042DD2000F2F7F4 /* b3.gif in Resources */,
 				8C57C6C22042DD2000F2F7F4 /* a7.gif in Resources */,
 				8C633F782040835A006557DC /* quiz.xml in Resources */,
+				2D720D05204477B200FC7CAE /* istatymas.pdf in Resources */,
 				8C57C6C12042DD2000F2F7F4 /* b8.gif in Resources */,
 				8C57C6B92042DD2000F2F7F4 /* a1.gif in Resources */,
-				8C633F7020405D53006557DC /* icon_128x128@2x.png in Resources */,
 				8C57C6BD2042DD2000F2F7F4 /* a3.gif in Resources */,
 				8C57C6BA2042DD2000F2F7F4 /* a10.gif in Resources */,
 				8C57C6C32042DD2000F2F7F4 /* a5.gif in Resources */,
