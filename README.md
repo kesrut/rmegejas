@@ -5,6 +5,6 @@ Radijo mėgėjas macOS app. Programėlė skirta pasiruošti radijo mėgėjo egza
 
 [img1]: https://github.com/kesrut/rmegejas/blob/master/img1.png?raw=true
 
-Quiz XML and images from: https://github.com/kareiva/hamradio-quiz
+Quiz XML file and images from: https://github.com/kareiva/hamradio-quiz
 
 
