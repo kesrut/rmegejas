@@ -208,7 +208,9 @@ class QuestionViewController: NSViewController {
     }
     
     @IBAction func nextButtonPress(_ sender: Any) {
-        loadQuestion(category: Category.B_CATEGORY)
+        if let testCategory = testCategory {
+            loadQuestion(category: testCategory)
+        }
     }
     
     func removeAllSubviews() {
