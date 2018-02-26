@@ -51,8 +51,8 @@
         <window title="Radijo mėgėjas" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="209" y="148" width="600" height="500"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1366" height="745"/>
+            <rect key="contentRect" x="693" y="272" width="600" height="500"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1057"/>
             <value key="minSize" type="size" width="600" height="500"/>
             <value key="maxSize" type="size" width="600" height="500"/>
             <view key="contentView" wantsLayer="YES" id="EiT-Mj-1SZ">
