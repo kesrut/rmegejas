@@ -22,13 +22,6 @@ class MainViewController: NSViewController {
         if mainView != nil {
             self.removeAllSubviews()
         }
-    }
-    
-    override func viewWillAppear() {
-        
-    }
-    
-    override func viewDidAppear() {
         startView = StartView.init(nibName: NSNib.Name(rawValue:"StartView"), bundle: Bundle.main)
         if let startView = startView {
             self.removeAllSubviews()
@@ -38,11 +31,28 @@ class MainViewController: NSViewController {
             startView.mainViewController = self
         }
     }
+    
+    override func viewWillAppear() {
+        
+    }
+    
+    override func viewDidAppear() {
+       
+    }
+    
+    override func viewWillDisappear() {
+        self.removeAllSubviews()
+    }
 
+    
     func removeAllSubviews() {
         for v in self.mainView.subviews {
             v.removeFromSuperview()
         }
+    }
+    
+    @IBAction func hide(_ sender: Any) {
+        NSApp.hide(self)
     }
     
 }

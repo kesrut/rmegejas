@@ -42,6 +42,11 @@
                                 </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="VOq-y0-SEH"/>
+                            <menuItem title="Paslėpti" keyEquivalent="h" id="0FL-Rn-Vcy">
+                                <connections>
+                                    <action selector="hide:" target="0Ge-3A-A4p" id="j9I-xO-Xnq"/>
+                                </connections>
+                            </menuItem>
                             <menuItem title="Baigti" keyEquivalent="q" id="4sb-4s-VLi">
                                 <connections>
                                     <action selector="terminate:" target="-1" id="Te7-pn-YzF"/>
@@ -54,7 +59,7 @@
             <point key="canvasLocation" x="146" y="100"/>
         </menu>
         <window title="Radijo mėgėjas" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
-            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="693" y="272" width="600" height="500"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1057"/>
